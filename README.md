@@ -18,5 +18,5 @@ REFRESH_TOKEN_KEY=9b512977ea37fa88e283035ffbf12f006b1f7ed6e716fe58e630509ca29d52
 # mongorestore db_backups
 
 ```bash
-mongorestore --user="<db uri>" <file location>
+mongorestore --uri="<db uri>" <backup file location>
 ```
